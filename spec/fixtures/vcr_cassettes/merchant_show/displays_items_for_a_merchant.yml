@@ -25,18 +25,18 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e87f9c4b-e9b9-44e6-8849-c3536d4911ed
+      - 9de25613-1683-421f-81d9-ddae5de4c33b
       X-Runtime:
-      - '0.003193'
+      - '0.004090'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Thu, 16 Feb 2023 05:43:29 GMT
+  recorded_at: Thu, 16 Feb 2023 05:39:12 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/merchants/1/items
+    uri: http://localhost:3000/api/v1/merchant/1/items
     body:
       encoding: US-ASCII
       string: ''
@@ -49,63 +49,62 @@ http_interactions:
       - "*/*"
   response:
     status:
-      code: 200
-      message: OK
+      code: 404
+      message: Not Found
     headers:
       Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"851439a972376807490385c5a7adefc6"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
+      - application/json; charset=UTF-8
       X-Request-Id:
-      - 57475778-0aa1-49a4-919c-a090ec57036d
+      - 6086262f-05ff-4d86-af74-14364a873a65
       X-Runtime:
-      - '0.003834'
-      Transfer-Encoding:
-      - chunked
+      - '0.004513'
+      Content-Length:
+      - '3914'
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
-        eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
-        ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}},{"id":"5","type":"item","attributes":{"name":"Item
-        Expedita Aliquam","description":"Voluptate aut labore qui illum tempore eius.
-        Corrupti cum et rerum. Enim illum labore voluptatem dicta consequatur. Consequatur
-        sunt consequuntur ut officiis.","unit_price":687.23,"merchant_id":1}},{"id":"6","type":"item","attributes":{"name":"Item
-        Provident At","description":"Numquam officiis reprehenderit eum ratione neque
-        tenetur. Officia aut repudiandae eum at ipsum doloribus. Iure minus itaque
-        similique. Ratione dicta alias asperiores minima ducimus nesciunt at.","unit_price":159.25,"merchant_id":1}},{"id":"7","type":"item","attributes":{"name":"Item
-        Expedita Fuga","description":"Fuga assumenda occaecati hic dolorem tenetur
-        dolores nisi. Est tenetur adipisci voluptatem vel. Culpa adipisci consequatur
-        illo. Necessitatibus quis quo velit sed repellendus ut amet.","unit_price":311.63,"merchant_id":1}},{"id":"8","type":"item","attributes":{"name":"Item
-        Est Consequuntur","description":"Reprehenderit est officiis cupiditate quia
-        eos. Voluptatem illum reprehenderit quo vel eligendi. Et eum omnis id ut aliquid
-        veniam.","unit_price":343.55,"merchant_id":1}},{"id":"9","type":"item","attributes":{"name":"Item
-        Quo Magnam","description":"Culpa deleniti adipisci voluptates aut. Sed eum
-        quisquam nisi. Voluptatem est rerum est qui id reprehenderit. Molestiae laudantium
-        non velit alias. Ipsa consequatur modi quibusdam.","unit_price":225.82,"merchant_id":1}},{"id":"10","type":"item","attributes":{"name":"Item
-        Quidem Suscipit","description":"Reiciendis sed aperiam culpa animi laudantium.
-        Eligendi veritatis sint dolorem asperiores. Earum alias illum eos non rerum.","unit_price":340.18,"merchant_id":1}},{"id":"11","type":"item","attributes":{"name":"Item
-        Rerum Magni","description":"Iusto ratione illum. Adipisci est perspiciatis
-        temporibus. Ducimus id dolorem voluptas eligendi repellat iure sit.","unit_price":130.46,"merchant_id":1}},{"id":"12","type":"item","attributes":{"name":"Item
-        Et Cumque","description":"Ducimus id perferendis. Libero ullam odit aut quisquam
-        non. Rem eaque distinctio quos. Eaque nihil odit.","unit_price":395.15,"merchant_id":1}},{"id":"13","type":"item","attributes":{"name":"Item
-        Voluptatem Sint","description":"Nostrum doloribus quia. Expedita vitae beatae
-        cumque. Aut ut illo aut eum.","unit_price":594.54,"merchant_id":1}},{"id":"14","type":"item","attributes":{"name":"Item
-        Itaque Consequatur","description":"Voluptatibus omnis quo recusandae distinctio
-        voluptatem quibusdam et. Voluptas odio accusamus delectus sunt quia. Non atque
-        rerum vitae officia odit. Magnam iste occaecati in nihil autem saepe.","unit_price":398.91,"merchant_id":1}},{"id":"15","type":"item","attributes":{"name":"Item
-        Rerum Est","description":"Nemo voluptatem facere aut quo. Consequatur vel
-        voluptas et. Consequuntur quibusdam ea consectetur accusamus sit optio qui.","unit_price":426.29,"merchant_id":1}},{"id":"2488","type":"item","attributes":{"name":"Item
-        Qui Esse","description":"Nihil autem sit odio inventore deleniti. Est laudantium
-        ratione distinctio laborum. Minus voluptatem nesciunt assumenda dicta voluptatum
-        porro.","unit_price":751.07,"merchant_id":1}},{"id":"2484","type":"item","attributes":{"name":"Item
-        Autem Minima","description":"Cumque consequuntur ad. Fuga tenetur illo molestias
-        enim aut iste. Provident quo hic aut. Aut quidem voluptates dolores. Dolorem
-        quae ab alias tempora.","unit_price":670.76,"merchant_id":1}},{"id":"2500","type":"item","attributes":{"name":"Item
-        Ea Voluptatum","description":"Sunt officia eum qui molestiae. Nesciunt quidem
-        cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
-        praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
-        nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Thu, 16 Feb 2023 05:43:29 GMT
+      string: '{"status":404,"error":"Not Found","exception":"#\u003cActionController::RoutingError:
+        No route matches [GET] \"/api/v1/merchant/1/items\"\u003e","traces":{"Application
+        Trace":[],"Framework Trace":[{"id":0,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in
+        `call''"},{"id":1,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in
+        `call''"},{"id":2,"trace":"railties (5.2.8.1) lib/rails/rack/logger.rb:38:in
+        `call_app''"},{"id":3,"trace":"railties (5.2.8.1) lib/rails/rack/logger.rb:26:in
+        `block in call''"},{"id":4,"trace":"activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in
+        `block in tagged''"},{"id":5,"trace":"activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:28:in
+        `tagged''"},{"id":6,"trace":"activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in
+        `tagged''"},{"id":7,"trace":"railties (5.2.8.1) lib/rails/rack/logger.rb:26:in
+        `call''"},{"id":8,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in
+        `call''"},{"id":9,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in
+        `call''"},{"id":10,"trace":"rack (2.2.6.2) lib/rack/runtime.rb:22:in `call''"},{"id":11,"trace":"activesupport
+        (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in
+        `call''"},{"id":12,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in
+        `call''"},{"id":13,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in
+        `call''"},{"id":14,"trace":"rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call''"},{"id":15,"trace":"railties
+        (5.2.8.1) lib/rails/engine.rb:524:in `call''"},{"id":16,"trace":"puma (3.12.6)
+        lib/puma/configuration.rb:227:in `call''"},{"id":17,"trace":"puma (3.12.6)
+        lib/puma/server.rb:706:in `handle_request''"},{"id":18,"trace":"puma (3.12.6)
+        lib/puma/server.rb:476:in `process_client''"},{"id":19,"trace":"puma (3.12.6)
+        lib/puma/server.rb:334:in `block in run''"},{"id":20,"trace":"puma (3.12.6)
+        lib/puma/thread_pool.rb:135:in `block in spawn_thread''"}],"Full Trace":[{"id":0,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call''"},{"id":1,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call''"},{"id":2,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app''"},{"id":3,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call''"},{"id":4,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged''"},{"id":5,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged''"},{"id":6,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged''"},{"id":7,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `call''"},{"id":8,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call''"},{"id":9,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call''"},{"id":10,"trace":"rack
+        (2.2.6.2) lib/rack/runtime.rb:22:in `call''"},{"id":11,"trace":"activesupport
+        (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in
+        `call''"},{"id":12,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in
+        `call''"},{"id":13,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in
+        `call''"},{"id":14,"trace":"rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call''"},{"id":15,"trace":"railties
+        (5.2.8.1) lib/rails/engine.rb:524:in `call''"},{"id":16,"trace":"puma (3.12.6)
+        lib/puma/configuration.rb:227:in `call''"},{"id":17,"trace":"puma (3.12.6)
+        lib/puma/server.rb:706:in `handle_request''"},{"id":18,"trace":"puma (3.12.6)
+        lib/puma/server.rb:476:in `process_client''"},{"id":19,"trace":"puma (3.12.6)
+        lib/puma/server.rb:334:in `block in run''"},{"id":20,"trace":"puma (3.12.6)
+        lib/puma/thread_pool.rb:135:in `block in spawn_thread''"}]}}'
+  recorded_at: Thu, 16 Feb 2023 05:39:17 GMT
 recorded_with: VCR 6.1.0
