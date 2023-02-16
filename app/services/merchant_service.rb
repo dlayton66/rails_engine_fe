@@ -4,11 +4,11 @@ class MerchantService
   end
 
   def self.get_merchants
-    parse_json(conn.get("/merchants"))
+    parse_json(conn.get("/api/v1/merchants"))
   end
 
   def self.get_merchant(id)
-    parse_json(conn.get("/merchants/#{id}"))
+    parse_json(conn.get("/api/v1/merchants/#{id}"))
   end
 
   def self.parse_json(response)
